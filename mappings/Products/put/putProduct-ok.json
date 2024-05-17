@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "/product/1"
+  },
+  "response": {
+    "status": 200,
+    "headers":{
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "Products/put/putProduct-ok.json"
+  }
+}

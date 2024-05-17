@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "Zapatilla RX40 V2",
+  "description": "Zapatilla idónea para salir a correr y par jugar al tenis",
+  "price": 85,
+  "creation_date": "2024-03-20",
+  "stock": 15,
+  "sectionId": "1"
+}
