@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/sections"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "Sections/get/getSections-ok.json"
+  }
+}

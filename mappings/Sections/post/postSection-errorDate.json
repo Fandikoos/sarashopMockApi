@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/sections/errorDate"
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "Sections/post/postSections-errorDate.json"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/section/.*"
+  },
+  "response": {
+    "status": 204,
+    "headers":{
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+ {
+    "id": 1,
+    "name": "Deporte",
+    "description": "Ropa adecuada para realizar deporte",
+    "creation_date": "2023-05-18",
+    "available": true,
+    "products": [
+      {
+        "id": 1,
+        "name": "Zapatilla",
+        "description": "Adecuada para hacer running",
+        "price": 70,
+        "creation_date": "2020-04-23",
+        "stock": false,
+        "sectionId": 1
+      },{
+        "id": 2,
+        "name": "Gorra",
+        "description": "Adecuada para proteger del sol",
+        "price": 70,
+        "creation_date": "2020-04-23",
+        "stock": true,
+        "sectionId": 1
+      }
+
+    ]
+  }
