@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "Zapatilla RX40",
+  "description": "Zapatilla idónea para salir a correr",
+  "price": 70,
+  "creation_date": "2024-03-20",
+  "stock": 25,
+  "sectionId": "1"
+}

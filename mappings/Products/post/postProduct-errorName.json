@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/products/errorName"
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "Products/post/postProducts-errorName.json"
+  }
+}

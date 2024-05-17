@@ -1,0 +1,6 @@
+{
+  "code": 404,
+  "errors": {
+    "name": "Product not found"
+  }
+}

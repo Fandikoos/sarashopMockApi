@@ -1,0 +1,6 @@
+{
+  "code": 400,
+  "errors": {
+    "name": "Es obligatorio establecer el nombre del producto"
+  }
+}

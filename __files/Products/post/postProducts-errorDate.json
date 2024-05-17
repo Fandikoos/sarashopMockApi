@@ -1,0 +1,6 @@
+{
+  "code": 400,
+  "errors": {
+    "name": "Es obligatorio establecer la fecha de creación del `producto"
+  }
+}
