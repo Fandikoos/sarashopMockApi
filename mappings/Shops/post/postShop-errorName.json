@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/shops/errorName"
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "Shops/post/postShops-errorName.json"
+  }
+}
