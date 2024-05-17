@@ -987,6 +987,74 @@
 							"response": []
 						}
 					]
+				},
+				{
+					"name": "getBySection",
+					"item": [
+						{
+							"name": "get products ok",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/section/1/products",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"section",
+										"1",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get product not found",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/section/5/products",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"section",
+										"5",
+										"products"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get product internal error",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/section/3/products",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"section",
+										"3",
+										"products"
+									]
+								}
+							},
+							"response": []
+						}
+					]
 				}
 			]
 		}
