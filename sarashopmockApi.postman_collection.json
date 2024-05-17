@@ -266,6 +266,71 @@
 							"response": []
 						}
 					]
+				},
+				{
+					"name": "getById",
+					"item": [
+						{
+							"name": "get shop ok",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/shop/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"shop",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get shop not found",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/shop/4",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"shop",
+										"4"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get shop internal error",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/shop/7",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"shop",
+										"7"
+									]
+								}
+							},
+							"response": []
+						}
+					]
 				}
 			]
 		},
@@ -529,6 +594,71 @@
 							"response": []
 						}
 					]
+				},
+				{
+					"name": "getById",
+					"item": [
+						{
+							"name": "get section ok",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/section/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"section",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get section not found",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/section/4",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"section",
+										"4"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get section internal error",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/section/7",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"section",
+										"7"
+									]
+								}
+							},
+							"response": []
+						}
+					]
 				}
 			]
 		},
@@ -775,6 +905,71 @@
 							"name": "put product internal error",
 							"request": {
 								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/product/7",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"product",
+										"7"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "getById",
+					"item": [
+						{
+							"name": "get product ok",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/product/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"product",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get product not found",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/product/4",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"product",
+										"4"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get product internal error",
+							"request": {
+								"method": "GET",
 								"header": [],
 								"url": {
 									"raw": "http://localhost:8089/product/7",
