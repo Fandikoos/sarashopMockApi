@@ -81,6 +81,15 @@
 							"request": {
 								"method": "POST",
 								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"SaraStore\",\r\n  \"address\": \"Avenida Río Cinca, 5\",\r\n  \"phone\": 675436543,\r\n  \"open_date\": \"2020-05-18\",\r\n  \"open\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
 								"url": {
 									"raw": "http://localhost:8089/shops",
 									"protocol": "http",
@@ -210,6 +219,15 @@
 							"request": {
 								"method": "PUT",
 								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"JulianStore\",\r\n  \"address\": \"Avenida Río Cinca, 5\",\r\n  \"phone\": 600432567,\r\n  \"open_date\": \"2020-05-18\",\r\n  \"open\": false\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
 								"url": {
 									"raw": "http://localhost:8089/shop/1",
 									"protocol": "http",
@@ -409,6 +427,15 @@
 							"request": {
 								"method": "POST",
 								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Deporte\",\r\n  \"description\": \"Ropa adecuada para hacer deporte\",\r\n  \"creation_date\": \"2023-05-18\",\r\n  \"available\": true,\r\n  \"products\": []\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
 								"url": {
 									"raw": "http://localhost:8089/sections",
 									"protocol": "http",
@@ -538,6 +565,15 @@
 							"request": {
 								"method": "PUT",
 								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Deporte\",\r\n  \"description\": \"Ropa adecuada para hacer deporte\",\r\n  \"creation_date\": \"2023-05-18\",\r\n  \"available\": true,\r\n  \"products\": []\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
 								"url": {
 									"raw": "http://localhost:8089/section/1",
 									"protocol": "http",
@@ -737,6 +773,15 @@
 							"request": {
 								"method": "POST",
 								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Zapatilla RX40\",\r\n  \"description\": \"Zapatilla idónea para salir a correr\",\r\n  \"price\": 70,\r\n  \"creation_date\": \"2024-03-20\",\r\n  \"stock\": 25,\r\n  \"sectionId\": [1]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
 								"url": {
 									"raw": "http://localhost:8089/products",
 									"protocol": "http",
@@ -866,6 +911,15 @@
 							"request": {
 								"method": "PUT",
 								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Zapatilla RX40 V2\",\r\n  \"description\": \"Zapatilla idónea para salir a correr y para jugar al tenis\",\r\n  \"price\": 85,\r\n  \"creation_date\": \"2024-03-20\",\r\n  \"stock\": 15,\r\n  \"sectionId\": [1]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
 								"url": {
 									"raw": "http://localhost:8089/product/1",
 									"protocol": "http",
