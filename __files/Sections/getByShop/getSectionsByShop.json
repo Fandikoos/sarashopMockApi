@@ -5,16 +5,6 @@
     "description": "Ropa adecuada para realizar deporte",
     "creation_date": "2010-05-18",
     "available": false,
-    "products": [
-      {
-        "id": 1,
-        "name": "Zapatilla",
-        "description": "Adecuada para hacer running",
-        "price": 70,
-        "creation_date": "2020-04-23",
-        "stock": false
-      }
-    ],
     "shop": [
       {
         "id": 1,
