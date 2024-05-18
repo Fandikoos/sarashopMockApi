@@ -23,7 +23,16 @@
         "stock": true,
         "brandId": 1
       }
-
+    ],
+    "shop": [
+      {
+        "id": 1,
+        "name": "SaraShop",
+        "address": "Avenida Río Cinca 5",
+        "phone": 678543123,
+        "open": true,
+        "open_date": "20-05-2010"
+      }
     ]
   },
   {
@@ -41,6 +50,16 @@
         "creation_date": "2020-04-23",
         "stock": true,
         "sectionId": 2
+      }
+    ],
+    "shop": [
+      {
+        "id": 1,
+        "name": "SaraShop",
+        "address": "Avenida Río Cinca 5",
+        "phone": 678543123,
+        "open": true,
+        "open_date": "20-05-2010"
       }
     ]
   }

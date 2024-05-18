@@ -4,5 +4,15 @@
   "description": "Ropa adecuada para realizar deporte",
   "creation_date": "2023-05-18",
   "available": true,
-  "products": []
+  "products": [],
+  "shop": [
+    {
+      "id": 1,
+      "name": "SaraShop",
+      "address": "Avenida Río Cinca 5",
+      "phone": 678543123,
+      "open": true,
+      "open_date": "20-05-2010"
+    }
+  ]
 }
