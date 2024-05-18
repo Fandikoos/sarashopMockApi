@@ -695,6 +695,74 @@
 							"response": []
 						}
 					]
+				},
+				{
+					"name": "getByShop",
+					"item": [
+						{
+							"name": "get sections ok",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/shop/1/sections",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"shop",
+										"1",
+										"sections"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get shop not found",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/shop/5/sections",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"shop",
+										"5",
+										"sections"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get shop internal error",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/shop/3/sections",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"shop",
+										"3",
+										"sections"
+									]
+								}
+							},
+							"response": []
+						}
+					]
 				}
 			]
 		},
@@ -1067,7 +1135,7 @@
 							"response": []
 						},
 						{
-							"name": "get product not found",
+							"name": "get section not found",
 							"request": {
 								"method": "GET",
 								"header": [],
@@ -1088,7 +1156,7 @@
 							"response": []
 						},
 						{
-							"name": "get product internal error",
+							"name": "get section internal error",
 							"request": {
 								"method": "GET",
 								"header": [],
